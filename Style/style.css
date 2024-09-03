@@ -1,0 +1,367 @@
+body{
+    padding-top: 70px;
+    background-color: #f6f6f7;
+}
+
+@font-face {
+    font-family: 'Colfax-Light';
+    src: url('../Fonts/Colfax-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Colfax-Bold';
+    src: url('../Fonts/Colfax-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    height: 60px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-section{
+    width: 180px;
+
+}
+
+.middle-section{
+    flex:1;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Roboto, Arial;
+
+}
+
+.right-section{
+    width:200px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+
+}
+
+.try-livechat{
+    width: 120px;
+    background-color: #ee0007;
+    border: none;
+    color: white;
+    font-weight: 700;
+    height: 36px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;;
+}
+
+
+.continue-with-facebook {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+  }
+  
+.facebook-button {
+    height: 40px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.facebook-button:hover {
+    background-color: black;
+    color: white;
+}
+  
+
+i.fab.fa-facebook{
+    font-size: 24px;
+}
+  
+.facebook-text {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+.typing-heading-1{
+    display: inline-block;
+    font-family: Colfax-Light;
+    letter-spacing: 0.1rem;
+    margin-left: 42%;
+    margin-bottom: 50px;
+
+}
+
+.test-skills{
+    display: inline-block;
+    font-family: Colfax-Bold;
+    font-weight: 700;
+    font-size:4.50839727rem;
+    margin-left: 20%;
+    margin-top: -200px;
+
+
+}
+
+.counter-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    
+}
+
+.counter-left-section{
+    padding-left: 100px;
+}
+
+.sec{
+    width: 100px;
+    height: 100px;
+    border-radius: 54px;
+    border: 5px;
+    background-color: white;
+    font-size: 24px;
+    border-color: #FFD007;
+    margin-bottom: 10px;
+    border-style: solid;
+}
+
+.sec-num{
+    margin-top:18px;
+    padding-left: 26px;
+    color: #1b1b20;
+    font-weight: bold;
+    font-family: Colfax-Bold;
+    font-size: 40px;
+}
+
+.sec-word{
+    margin-top:-40px;
+    padding-left: 25px;
+    font-family: Colfax-Light;
+    font-size: 14px;
+}
+
+
+.counter-right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 500px;
+    margin-left: 100px;
+    
+}
+
+.wpm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.apm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.word-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 40px;
+    margin-right: 20px;
+    color: #1b1b20;
+    font-weight: bold;
+    font-family: Colfax-Bold;
+  }
+
+  .wpm-word{
+    padding-right: 16px;
+    padding-top: 7px;
+    font-family: Colfax-Light;
+    font-size: 14px;
+  }
+
+.chars-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 40px;
+    margin-right: 20px;
+    color: #1b1b20;
+    font-weight: bold;
+    font-family: Colfax-Bold;
+  }
+  .cpm-word{
+    padding-right: 20px;
+    padding-top: 7px;
+    font-family: Colfax-Light;
+    font-size: 14px;
+  }
+
+  .accuracy-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 40px;
+    color: #1b1b20;
+    font-weight: bold;
+    font-family: Colfax-Bold;
+  }
+
+.acc-word{
+    padding-top: 7px;
+    font-family: Colfax-Light;
+    font-size: 14px;
+}
+
+.typing-box{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    height: 150px;
+    margin-left: 50px;
+    background-color:#f6f6f7;
+}
+
+.null-text{
+    height: 140px;
+    width: 500px;
+    margin-left: 110px;
+    border-right: white;
+    outline: none;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -8px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.actual-text{
+    margin-left: -19px;
+    height: 140px;
+    width: 500px;
+    border-left: white;
+    outline: none;
+    background-color: white;
+    border: none;
+    font-size: 40px;
+    border-radius: 5px;
+    box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder{
+    font-family: Merriweather,serif;
+    font-size: 32px;
+    color: black;
+}
+
+
+
+@keyframes pulse{
+    0% {
+      transform: translateY(15px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+}
+  
+
+
+.st-indicator{
+    position: absolute;
+    height: 25px;
+    width: 120px;
+    top: 0;
+    left:44%;
+    background-color: #FFD007;
+    border: none;
+    border-radius: 3px;
+    margin-top: -20px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Colfax-Light;
+    color:black;
+
+}
+
+.down-traingle{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 8px solid #FFD007;
+    top:30px;
+    left:590px;
+    margin-top: -15px;
+    
+}
+
+.st-indicator, .down-traingle{
+    animation: pulse 1.4s infinite ease-out;    
+
+}
+
+
+
+
+  
